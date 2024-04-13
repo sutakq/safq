@@ -1,0 +1,29 @@
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-bottom: 1px solid #333;
+    padding: 8px 0px;
+    
+}
+
+.search input {
+    border: transparent;
+    background-color: transparent;
+    outline: none;
+
+    margin-right: 4px;
+
+    width: 200px;
+
+    font-size: 16px;
+}
+
+.search img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}

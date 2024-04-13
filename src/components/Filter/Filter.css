@@ -1,0 +1,27 @@
+.filter img {
+    width: 20px;
+    height: 20px;
+  
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 5px;
+}
+
+.select select {
+    background-color: transparent;
+    border: transparent;
+    font-size: 16px;
+    outline: none;
+}
+
+.select option {
+    background-color: transparent;
+    border: transparent;
+}
